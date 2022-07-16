@@ -4,7 +4,7 @@
 
 ## Storybook
 
-[Demo Link](https://anthonyjgrove.github.io/react-google-login/)
+[Demo Link](https://leecheuk.github.io/react-google-login/)
 
 ## Install
 ```
@@ -282,9 +282,3 @@ npm run bundle
 ```
 npm run deploy-storybook
 ```
-
-##### Checkout my other login: [React Instagram Login](https://github.com/anthonyjgrove/react-instagram-login)
-
-##### Checkout keppelen's [React Facebook Login](https://github.com/keppelen/react-facebook-login)
-
-### Follow me on Twitter: [@anthonyjgrove](https://twitter.com/anthonyjgrove)
