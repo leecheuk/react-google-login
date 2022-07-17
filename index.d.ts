@@ -109,6 +109,7 @@ export interface GoogleLoginProps {
     onClick: () => void;
     disabled?: boolean;
   }) => JSX.Element;
+  readonly pluginName?: string;
 }
 
 export class GoogleLogin extends Component<GoogleLoginProps, unknown> {
@@ -132,6 +133,7 @@ export interface GoogleLogoutProps {
     onClick: () => void;
     disabled?: boolean;
   }) => JSX.Element;
+  readonly pluginName?: string;
 }
 
 export class GoogleLogout extends Component<GoogleLogoutProps, unknown> {
@@ -157,6 +159,7 @@ export interface UseGoogleLogoutProps {
   readonly scope?: string;
   readonly uxMode?: string;
   readonly jsSrc?: string;
+  readonly pluginName?: string;
 }
 
 export function useGoogleLogout(
@@ -191,6 +194,7 @@ export interface UseGoogleLoginProps {
   readonly isSignedIn?: boolean;
   readonly discoveryDocs?: any;
   readonly accessType?: string;
+  readonly pluginName?: string;
 }
 
 export function useGoogleLogin(

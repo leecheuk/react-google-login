@@ -1,6 +1,10 @@
 # React Google Login
 
-> A Google OAuth Sign-in / Log-in Component for React. Forked from anthonyjgrove/react-google-login
+A Google OAuth Sign-in / Log-in Component for React. Forked from `anthonyjgrove/react-google-login`.
+
+> :warning: Google is discontinuing Google Sign-In JavaScript Platform Library for web. By default, newly created Client IDs are blocked and if you create IDs before July 29th, 2022, you can set `plugin_name` to use it. Please migrate to **Google Identity Services** before March 31, 2023.
+
+Note: This package uses Google Sign-In JavaScript Platform Library and has added support for `plugin_name`. 
 
 ## Storybook
 
@@ -168,6 +172,7 @@ Use GoogleLogout button to logout the user from google.
 | redirectUri       |  string  |  -   | If using ux_mode='redirect', this parameter allows you to override the default redirect_uri that will be used at the end of the consent flow. The default redirect_uri is the current URL stripped of query parameters and hash fragment. |
 | isSignedIn | boolean | false | If true will return GoogleUser object on load, if user has given your app permission |
 | render       | function | -                                     | Render prop to use a custom element, use renderProps.onClick |
+| pluginName       | string | -                                     | For Client IDs created before July 29th, 2022 to use the Google Platform Library. You can choose any value. [Reference](https://developers.google.com/identity/sign-in/web/reference#gapiauth2initparams) |
 Google Scopes List: [scopes](https://developers.google.com/identity/protocols/googlescopes)
 
 ## Logout Props
@@ -197,6 +202,7 @@ Google Scopes List: [scopes](https://developers.google.com/identity/protocols/go
 | redirectUri       |  string  |  -   | If using ux_mode='redirect', this parameter allows you to override the default redirect_uri that will be used at the end of the consent flow. The default redirect_uri is the current URL stripped of query parameters and hash fragment. |
 | isSignedIn | boolean | false | If true will return GoogleUser object on load, if user has given your app permission |
 | render       | function | -                                     | Render prop to use a custom element, use renderProps.onClick |
+| pluginName       | string | -                                     | For Client IDs created before July 29th, 2022 to use the Google Platform Library. You can choose any value. [Reference](https://developers.google.com/identity/sign-in/web/reference#gapiauth2initparams) |
 Google Scopes List: [scopes](https://developers.google.com/identity/protocols/googlescopes)
 
 ## onSuccess callback ( w/ offline false)

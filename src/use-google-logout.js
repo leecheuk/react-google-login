@@ -16,7 +16,8 @@ const useGoogleLogout = ({
   redirectUri,
   scope,
   accessType,
-  onLogoutSuccess
+  onLogoutSuccess,
+  pluginName
 }) => {
   const [loaded, setLoaded] = useState(false)
 
@@ -55,7 +56,8 @@ const useGoogleLogout = ({
           ux_mode: uxMode,
           redirect_uri: redirectUri,
           scope,
-          access_type: accessType
+          access_type: accessType,
+          plugin_name: pluginName
         }
         window.gapi.load('auth2', () => {
           if (!window.gapi.auth2.getAuthInstance()) {
