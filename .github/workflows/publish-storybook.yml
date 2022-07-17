@@ -23,8 +23,8 @@ jobs:
       - name: Install
         run: npm ci
 
-      - name: Bundle
-        run: npm run bundle --if-present
+      - name: Build
+        run: npm run build-storybook
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
