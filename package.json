@@ -1,6 +1,6 @@
 {
   "name": "@leecheuk/react-google-login",
-  "version": "5.1.3",
+  "version": "5.4.0",
   "description": "A Google Login Component for React",
   "main": "dist/google-login.js",
   "scripts": {
