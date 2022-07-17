@@ -1,6 +1,6 @@
 # React Google Login
 
-> A Google oAUth Sign-in / Log-in Component for React
+> A Google OAuth Sign-in / Log-in Component for React. Forked from anthonyjgrove/react-google-login
 
 ## Storybook
 
@@ -8,7 +8,7 @@
 
 ## Install
 ```
-npm install react-google-login
+npm install @leecheuk/react-google-login
 ```
 
 ## How to use
