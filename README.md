@@ -1,6 +1,10 @@
 # React Google Login
 
-> A Google OAuth Sign-in / Log-in Component for React. Forked from anthonyjgrove/react-google-login
+A Google OAuth Sign-in / Log-in Component for React. Forked from `anthonyjgrove/react-google-login`.
+
+> :warning: Google is discontinuing Google Sign-In JavaScript Platform Library for web. By default, newly created Client IDs are blocked and if you create IDs before July 29th, 2022, you can set `plugin_name` to use it. Please migrate to **Google Identity Services** before March 31, 2023.
+
+Note: This package uses Google Sign-In JavaScript Platform Library and has added support for `plugin_name`. 
 
 ## Storybook
 
