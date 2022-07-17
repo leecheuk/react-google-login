@@ -277,8 +277,3 @@ npm run test:watch
 ```
 npm run bundle
 ```
-
-## Deploy Storybook
-```
-npm run deploy-storybook
-```
