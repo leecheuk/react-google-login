@@ -13,3 +13,16 @@ node_modules/
 .module-cache
 npm-debug.log
 .c9
+__test__
+.github
+.husky
+.storybook
+.vscode
+demo
+docs
+src
+stories
+webpack
+.eslintrc
+.jest-test-results.json
+commitlint.config.js
