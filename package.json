@@ -15,7 +15,6 @@
     "fresh": "rm -rf node_modules dist docs; rm package-lock.json; npm i",
     "storybook": "start-storybook -p 8080",
     "build-storybook": "npm run test:generate-output; build-storybook -c .storybook -o docs",
-    "deploy-storybook": "storybook-to-ghpages --out=docs/",
     "release": "release-it --ci --no-git.requireCleanWorkingDir"
   },
   "pre-commit": [
