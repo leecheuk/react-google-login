@@ -92,6 +92,7 @@ Use GoogleLogout button to logout the user from google.
 | redirectUri       |  string  |  -   | If using ux_mode='redirect', this parameter allows you to override the default redirect_uri that will be used at the end of the consent flow. The default redirect_uri is the current URL stripped of query parameters and hash fragment. |
 | isSignedIn | boolean | false | If true will return GoogleUser object on load, if user has given your app permission |
 | render       | function | -                                     | Render prop to use a custom element, use renderProps.onClick |
+| pluginName       | string | -                                     | For Client IDs created before July 29th, 2022 to use the Google Platform Library. You can choose any value. [Reference](https://developers.google.com/identity/sign-in/web/reference#gapiauth2initparams) |
 Google Scopes List: [scopes](https://developers.google.com/identity/protocols/googlescopes)
 
 ## onSuccess callback ( w/ offline false)
